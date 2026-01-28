@@ -10,7 +10,7 @@ body {
 header {
     background: 
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url("images/header-bg.png") center / cover no-repeat;
+        url("header-bg.png") center / cover no-repeat;
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -150,3 +150,4 @@ footer a:hover {
     width: 200px;
     border-radius: 10px;
 }
+
