@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url("images/background.jpg") fixed center / cover;
+    background: url("background.jpg") fixed center / cover;
     color: #222;
 }
 
@@ -150,4 +150,5 @@ footer a:hover {
     width: 200px;
     border-radius: 10px;
 }
+
 
