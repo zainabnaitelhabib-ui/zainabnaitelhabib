@@ -1,0 +1,152 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("images/background.jpg") fixed center / cover;
+    color: #222;
+}
+
+/* HEADER */
+header {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("images/header-bg.png") center / cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f0c040;
+}
+
+/* SECTIONS */
+.section {
+    background: rgba(255,255,255,0.95);
+    margin: 40px auto;
+    padding: 30px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+/* BOARD */
+.board-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.board-box img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* PIECES */
+.piece {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f2f2f2;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.piece img {
+    width: 120px;
+}
+
+/* CONTACT */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    background: #222;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
+
+/* FOOTER */
+footer {
+    background: rgba(0,0,0,0.85);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer {
+    background: rgba(0,0,0,0.9);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: #f0c040;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* ===== ANIMATIONS ===== */
+.fade-in {
+    animation: fade 1.2s ease-in;
+}
+
+.slide-in {
+    animation: slide 1.2s ease-in;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slide {
+    from { transform: translateY(40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.checkmate-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f2f2f2;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.checkmate-box img {
+    width: 200px;
+    border-radius: 10px;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Le Jeu d'Échecs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>Le Jeu d'Échecs ♟️</h1>
+    <p>Comprendre les règles et les pièces du chess</p>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#regles">Règles</a>
+        <a href="#pieces">Pièces</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- ================= ACCUEIL ================= -->
+<section id="accueil" class="section fade-in">
+    <h2>Accueil</h2>
+    <p>
+        Le jeu d’échecs est un jeu de stratégie millénaire joué par deux joueurs.
+        Il développe la logique, la concentration et l’anticipation.
+    </p>
+
+    <div class="board-box">
+        <img src="images/chess-board.png" alt="Échiquier">
+        <div>
+            <h3>L’échiquier</h3>
+            <p>
+                L’échiquier est composé de 64 cases, réparties en 8 lignes et 8 colonnes.
+                Chaque joueur commence avec 16 pièces.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= REGLES ================= -->
+<section id="regles" class="section slide-in">
+    <h2>Règles du jeu</h2>
+    <ul>
+        <li>Le jeu se joue entre deux joueurs : Blanc et Noir.</li>
+        <li>Chaque joueur joue à tour de rôle.</li>
+        <li>Chaque pièce possède un déplacement spécifique.</li>
+        <li>Le roi ne peut jamais être capturé.</li>
+        <li>La partie se termine par un <strong>échec et mat</strong>.</li>
+        <li>Il existe des règles spéciales comme le roque et la promotion.</li>
+    </ul>
+</section>
+
+<!-- ================= PIECES ================= -->
+<section id="pieces" class="section">
+    <h2>Les pièces d’échecs</h2>
+
+    <div class="piece fade-in">
+        <img src="images/pawn.png" alt="Pion">
+        <div>
+            <h3>Pion (Pawn)</h3>
+            <p>
+                Le pion avance d’une case vers l’avant (deux au premier coup).
+                Il capture en diagonale et peut être promu en fin de parcours.
+            </p>
+        </div>
+    </div>
+
+    <div class="piece fade-in">
+        <img src="images/rook.png" alt="Tour">
+        <div>
+            <h3>Tour (Rook)</h3>
+            <p>
+                La tour se déplace horizontalement ou verticalement.
+                Elle est très forte dans les lignes ouvertes.
+            </p>
+        </div>
+    </div>
+
+    <div class="piece fade-in">
+        <img src="images/bishop.png" alt="Fou">
+        <div>
+            <h3>Fou (Bishop)</h3>
+            <p>
+                Le fou se déplace uniquement en diagonale.
+                Chaque joueur possède un fou de cases blanches et un de cases noires.
+            </p>
+        </div>
+    </div>
+
+    <div class="piece fade-in">
+        <img src="images/knight.png" alt="Cavalier">
+        <div>
+            <h3>Cavalier (Knight)</h3>
+            <p>
+                Le cavalier se déplace en forme de L.
+                Il peut sauter par-dessus les autres pièces.
+            </p>
+        </div>
+    </div>
+
+    <div class="piece fade-in">
+        <img src="images/queen.png" alt="Reine">
+        <div>
+            <h3>Reine (Queen)</h3>
+            <p>
+                La reine est la pièce la plus puissante.
+                Elle combine les déplacements de la tour et du fou.
+            </p>
+        </div>
+    </div>
+
+    <div class="piece fade-in">
+        <img src="images/king.png" alt="Roi">
+        <div>
+            <h3>Roi (King)</h3>
+            <p>
+                Le roi est la pièce la plus importante.
+                Sa protection est l’objectif principal du jeu.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- ================= ECHEC ET MAT ================= -->
+<section id="echec-mat" class="section slide-in">
+    <h2>Échec et Mat</h2>
+
+    <div class="checkmate-box">
+        <img src="images/check.png" alt="Échec">
+        <div>
+            <h3>Échec</h3>
+            <p>
+                Le roi est en échec lorsqu’il est menacé par une pièce adverse.
+                Le joueur doit obligatoirement protéger son roi.
+            </p>
+        </div>
+    </div>
+
+    <div class="checkmate-box">
+        <img src="images/checkmate.png" alt="Échec et mat">
+        <div>
+            <h3>Échec et Mat</h3>
+            <p>
+                Il y a échec et mat lorsque le roi est en échec
+                et qu’aucun mouvement ne permet de le sauver.
+                La partie est alors terminée.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section slide-in">
+    <h2>Contact</h2>
+    <p>Pour toute question concernant ce projet :</p>
+
+    <form>
+        <input type="text" placeholder="Votre nom">
+        <input type="email" placeholder="Votre email">
+        <textarea placeholder="Votre message"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p><strong>Contact</strong></p>
+
+    <p>
+        📧 Email : 
+        <a href="mailto:zainabnaitelhabib@gmail.com">
+            zainabnaitelhabib@gmail.com
+            NoureddineELMQADDEM@gmail.com
+
+        </a>
+    </p>
+
+    <p>
+        📱 Téléphone : +212 6 00 13 70 43
+    </p>
+
+    <p class="footer-copy">
+        Projet  – Jeu d'Échecs | 2026 © Zainab Nait Elhabib
+        Encadrement : Noureddine Elmqaddem
+    </p>
+</footer>
+
+
+</body>
+</html>
